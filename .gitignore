@@ -1,0 +1,32 @@
+# Gradle
+.gradle/
+build/
+.idea/
+
+# Maven
+target/
+.idea/
+
+# Compiled class file
+*.class
+
+# Logs
+*.log
+
+# IntelliJ IDEA files
+*.iml
+.idea/
+
+# Eclipse files
+.classpath
+.project
+.settings/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Package files
+*.jar
+*.war
+*.ear
