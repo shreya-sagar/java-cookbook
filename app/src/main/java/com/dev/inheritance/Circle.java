@@ -1,4 +1,4 @@
-package com.dev.oops.inheritance;
+package com.dev.inheritance;
 
 import lombok.*;
 import lombok.experimental.SuperBuilder;

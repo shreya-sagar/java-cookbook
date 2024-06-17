@@ -1,6 +1,11 @@
-package com.dev.oops.inheritance;
+package com.dev;
 
-public class Main {
+import com.dev.inheritance.Circle;
+import com.dev.inheritance.Rectangle;
+import com.dev.inheritance.Shape;
+import com.dev.inheritance.Triangle;
+
+public class InheritanceTest {
     public static void main(String[] args) {
         Shape circle = new Circle(5.0, "red", true);
         System.out.println(circle.toString());
