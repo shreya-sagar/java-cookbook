@@ -1,4 +1,4 @@
-package com.dev.record;
+package com.dev.record.model;
 
 public record Point(double x, double y) {
     public static Point ORIGIN = new Point();

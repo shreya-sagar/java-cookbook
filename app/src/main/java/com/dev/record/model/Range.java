@@ -1,4 +1,4 @@
-package com.dev.record;
+package com.dev.record.model;
 
 public record Range(int from, int to) {
     public Range {

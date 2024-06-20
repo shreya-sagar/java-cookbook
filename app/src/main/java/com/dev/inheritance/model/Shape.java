@@ -1,12 +1,11 @@
-package com.dev.inheritance;
+package com.dev.inheritance.model;
 
-import lombok.Builder;
 import lombok.Data;
 import lombok.experimental.SuperBuilder;
 
 @Data
 @SuperBuilder
-public abstract class Shape {
+public class Shape {
     protected String color;
     protected boolean filled;
 
@@ -15,6 +14,11 @@ public abstract class Shape {
         this.filled = filled;
     }
 
-    public abstract double getArea();
-    public abstract double getPerimeter();
+    public double getArea() {
+        return 0;
+    }
+
+    public double getPerimeter() {
+        return 0;
+    }
 }

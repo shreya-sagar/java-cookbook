@@ -1,9 +1,9 @@
-package com.dev;
+package com.dev.record;
 
-import com.dev.record.Point;
-import com.dev.record.Range;
+import com.dev.record.model.Point;
+import com.dev.record.model.Range;
 
-public class RecordTest {
+public class RecordDemo {
     public static void main(String[] args) {
         Point p = new Point(5,5);
         System.out.println(p.toString());

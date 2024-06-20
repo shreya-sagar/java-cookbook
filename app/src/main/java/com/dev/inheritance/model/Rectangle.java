@@ -1,4 +1,4 @@
-package com.dev.inheritance;
+package com.dev.inheritance.model;
 
 import lombok.Getter;
 import lombok.Setter;
